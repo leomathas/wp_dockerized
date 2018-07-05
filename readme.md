@@ -1,6 +1,9 @@
 # Read Me First
 
-run with `docker-compose up --build -d` or `/.setup.sh`
+1. run with `docker-compose up --build -d` or `/.setup.sh`
+2. visit localhost:8080 and setup a local db for wordpress
+3. visit localhost and connect wordpress to your database
+4. done
 
 ## Requirements:
 * docker

@@ -1,4 +1,4 @@
-plugins/
-!plugins/.gitkeep
-themes/
-!themes/.gitkeep
+plugins/*
+!plugins/.index.php
+themes/*
+!themes/.index.php

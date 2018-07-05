@@ -23,6 +23,7 @@ services:
     build: ./wordpress
     volumes:
       - wordpressfiles:/var/www/html
+      - ./wordpress/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ./plugins:/var/www/html/wp-content/plugins
       - ./themes:/var/www/html/wp-content/themes
     ports:
